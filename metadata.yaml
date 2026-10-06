@@ -1,0 +1,10 @@
+name: astrbot_plugin_deepseek_balance
+display_name: DeepSeek 余额查询
+desc: 查询 DeepSeek API 账户余额
+short_desc: 通过指令查询 DeepSeek 账户余额。
+version: 1.0.1
+author: FURRY南寒
+repo: https://github.com/FurryNanhan/astrbot_plugin_deepseek_balance
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.0.0"

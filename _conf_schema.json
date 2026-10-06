@@ -1,0 +1,15 @@
+{
+  "deepseek_api_key": {
+    "description": "DeepSeek API Key",
+    "type": "string",
+    "hint": "在 platform.deepseek.com 获取，以 sk- 开头",
+    "secret": true,
+    "default": ""
+  },
+  "request_timeout": {
+    "description": "请求超时时间（秒）",
+    "type": "int",
+    "hint": "调用 DeepSeek 余额接口的超时时间",
+    "default": 10
+  }
+}
